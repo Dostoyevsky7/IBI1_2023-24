@@ -1,5 +1,6 @@
 Hello. 
-My name is Rob.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
+My name is Anna.
+I like drinking coffee and eating chocolate.
+I like rock music and I like Led Zeppelin.
 I am happy that I can push my repo from Visual Studio Code to GitHub
+I really hope Git and GitHub work well
