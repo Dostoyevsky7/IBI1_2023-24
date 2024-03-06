@@ -12,9 +12,9 @@ from math import ceil
 
 progress=0
 total_random_number=0
-while progress<100:
+while progress<100: ###pre set that this while loop would run for 100 times
 	progress+=1
 	n = randint(1,10)
-	total_random_number = total_random_number+n
+	total_random_number = total_random_number+n ###add every number together
 
 print(total_random_number)
