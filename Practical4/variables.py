@@ -17,7 +17,7 @@ X= True
 Y= False
 #if X=True, Y=True, then W=False;
 #if X=True, Y=False, then W=True (vise versa)
-if X and Y == True or X or Y == False:
+if (X and Y) == True or (X and Y) == False:
     W= False
 else:
     W= True
@@ -25,9 +25,9 @@ print(W)
 
 X= True
 Y= False
-if X and Y == True:
+if (X and Y) == True:
     W=False
-elif X or Y == False:
+elif (X or Y) == False:
     W= False
 else:
     W=True
