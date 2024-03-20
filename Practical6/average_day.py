@@ -12,5 +12,6 @@ plt.pie(time, labels=label, startangle=90) #draw a pie chart
 plt.title("the average day of a university student") #add a title to this figure
 plt.show()
 plt.clf()
-a_time = dict_time['Sleeping'] #the part 'Sleeping' can change depends on the user
+choice = input("choose one activity: ") #the user can choose an acitivity!
+a_time = dict_time[choice] #the part 'Sleeping' can change depends on the user
 print(a_time) #print the amount of time of a certain activity on the list
