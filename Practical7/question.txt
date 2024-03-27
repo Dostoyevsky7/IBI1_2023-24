@@ -1,0 +1,5 @@
+Question: How has the relationship between the DALYs in China and UK changed over time?
+          Are they becoming more similar or less similar?
+Line number: 51-71
+result: DALYs between China and UK are becoming more similar as expected
+Reason possible: China's medical devices have developed from 1990 to 2019, causing DALYs to reduce
