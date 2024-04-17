@@ -1,0 +1,4 @@
+I learnt a lot in today's practical.
+I successfully established my personal web page.
+But I'm still confused about the difference between directory and reository.
+And I wonder why I can't push my updated index file on to GitHub, especially I secceeded the first time when I upload index.md.
