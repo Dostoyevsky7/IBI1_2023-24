@@ -13,11 +13,11 @@ while a<109: #attention this is < not <=!!! because if <=, 109 would satisfy the
     print(a)
 
 #define a new function(something learnt in highschool lol)
-def A(n):
+def A(n): #define a new function called A(n)
     if n==1:
         return 4
     elif n>1:
-        return 2*A(n-1)+3
+        return 2*A(n-1)+3 
     else:
         return "input is not a positive integer!"
 for n in range(1,6):
