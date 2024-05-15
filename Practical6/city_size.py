@@ -22,9 +22,9 @@ plt.clf() #close the graph and relevant data
 #the bar chart for China
 #this code got help from the course instructor Robert Young in IBI practical6 to draw a bar chart
 ind2 = ['Haining', 'Hangzhou', 'Beijing', 'Shanghai']
-width2 = 0.3 #choose the width of each bar
+width2 = 0.4 #choose the width of each bar
 color_option = ['brown', 'firebrick', 'indianred', 'lightcoral'] #every bar can have a different color
-plt.figure() #import a function in matplotlib
+plt.figure() 
 plt.bar(ind2, chn_cities, width2, color = color_option) #change the width to 0.3
 plt.ylabel("population(millions)") # the lable of the y axis the population with the unit of million
 plt.title("population of different cities in China") #add a chart title
