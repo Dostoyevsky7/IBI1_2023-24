@@ -9,7 +9,7 @@ dalys_data.info() #return the data types and othe rinformation
 print(dalys_data.describe()) #return mean, std, min&max, 25%, 50%, 75% of the data
 #mean DALYs = 42372.219173, max = 693367.490000, min = 15045.110000
 
-#use iloc to print out values
+#using iloc to print out values
 dalys_data.iloc[0,3] # iloc[row,column]: print the value on this location
 dalys_data.iloc[1,0:3]
 dalys_data.iloc[0:3,:] #':'means all
