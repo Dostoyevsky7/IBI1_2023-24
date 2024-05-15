@@ -1,4 +1,4 @@
-#determine someone's favourite James Bond
+#to determine someone's favourite James Bond
 #deine a function, the birth year metched with different Bonds
 def f_Bond(x):
     r = 'Roger Moore'
