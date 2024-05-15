@@ -1,4 +1,4 @@
-#define a function to calculate the number of chocolate bar can afford
+#define a function to calculate the number of chocolate bar the user can afford
 def choc(x, y):
     money = float(x)
     c_price = float(y)
