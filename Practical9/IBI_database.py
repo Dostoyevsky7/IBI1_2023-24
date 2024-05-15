@@ -11,7 +11,7 @@ class students (object):
         self.code_score = code_score
         self.group_score = group_score
         self.exam_score = exam_score
-    #the class includes a function to print out all the elements in one line
+#the class includes a function to print out all the elements in one line
     def print_info(self):
         print(f"Name: {self.name}, Major: {self.major}, sore for code portfolio: {self.code_score}, score for group project: {self.group_score}, exam score: {self.exam_score}")
 #example: student A majors in BMI and has straight As
