@@ -1,6 +1,6 @@
 # What does this piece of code do?
 # Answer:
-###pick a random number between 1 and 10 for 100 times and calculate their sum
+#pick a random number between 1 and 10 for 100 times and calculate their sum
 # Import libraries
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
