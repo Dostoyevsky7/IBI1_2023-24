@@ -4,7 +4,7 @@ t_other = 24-8-6-3.5-2-1 #calculate the 'other' activity time
 dict_time = {'Sleeping':8, 'Classes':6, 'Studying':3.5, 'TV':2, 'Music':1, 'Other':t_other}
 #create a dictionary recording each activities and corresponding time
 print(dict_time) #print out dictionary
-choice = input("choose one activity: ") #the user can choose an acitivity!
+choice = input("Choose one activity: ") #the user can choose an acitivity!
 a_time = dict_time[choice] #know the time of the activity selected from the dictionary
 print(a_time) #print out the time of the chosen activity
 
