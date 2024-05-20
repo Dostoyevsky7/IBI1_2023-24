@@ -18,7 +18,9 @@ with open('store.fa', 'r') as l_read:
         if rep_seq in line:
             time = line.count(rep_seq)
             name = re.findall(r'>.+?_mRNA', line)
-            name_str = str(name) #turn it into a string so that it can add with the 'time'
-            new_name = re.escape(name_str) + str(time)
+            name_str = str(name).strip('[').strip('\\').strip(']').strip("'")
+            #turn it into a string so that it can add with the 'time'
+            #use strip to make the gene name more neat
+            new_name = re.escape(name_str) + ' ' + str(time)
             new_line = line.strip(name_str) 
             output_f.write(new_name + '\n' + new_line)
