@@ -16,7 +16,11 @@ with open('store.fa', 'w') as l_string:
 with open('store.fa', 'r') as l_read:
     for line in l_read:
         if rep_seq in line:
-            time = line.count(rep_seq)
+            time = 0
+            #time = line.count(rep_seq)
+            for i in range(len(line)):
+                if line[i:i+6] == rep_seq:
+                    time += 1
             name = re.findall(r'>.+?_mRNA', line)
             name_str = str(name).strip('[').strip('\\').strip(']').strip("'")
             #turn it into a string so that it can add with the 'time'
