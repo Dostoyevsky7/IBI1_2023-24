@@ -110,7 +110,7 @@ width = 0.5
 plt.figure()
 plt.bar(ind, score, width) # yerr is standard error
 plt.ylabel("nubmer")
-plt.title("numbers of groups")
+plt.title("numbers of each ontology")
 plt.xticks(ind)
 plt.show()
 plt.clf()
