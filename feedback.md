@@ -1,0 +1,2 @@
+According to the feedback, I chaged the commit message of Practical 4, 6, 7, 9, 13 to make my commit message more informative.
+I also modified the code of Practical8 to make my output file to be more neat.
