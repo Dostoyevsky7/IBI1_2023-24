@@ -109,8 +109,8 @@ ind = ['molecular_function', 'biological_process', 'cellular_component']
 width = 0.5
 plt.figure()
 plt.bar(ind, score, width) # yerr is standard error
-plt.ylabel("scores")
-plt.title("Scores of groups")
+plt.ylabel("nubmer")
+plt.title("numbers of groups")
 plt.xticks(ind)
 plt.show()
 plt.clf()
